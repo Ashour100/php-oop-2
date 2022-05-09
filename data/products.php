@@ -13,7 +13,7 @@ class Products{
         $this->price=$price;
         $this->weight=$weight;
         $this->manufacturer=$manufacturer;
-    };
+    }
 
 };
 ?>
