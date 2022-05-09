@@ -2,7 +2,7 @@
 include_once __DIR__ . '/data/Products.php';
 include_once __DIR__ . '/data/Food.php';
 
-$dogShit=new Food("12/10/2020","12/10/2020","dog",['shit','and shit'],"",'dogShit1','15$','200g','me');
+$dogprod=new Food("12/10/2020","12/10/2020","dog","somthing","",'dogprod1','15$','200g','me');
 
 
 
