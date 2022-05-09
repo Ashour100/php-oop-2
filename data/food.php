@@ -11,6 +11,7 @@ class Food extends Products{
     public $FeedingDirections;
 
     function __construct($prodDate,$expDate,$targetedAnimal,$ingredients,$FeedingDirections=null){
+        parent::__construct($name,$price,$weight,$manufacturer);
         $this->prodDate=$prodDate;
         $this->expDate=$expDate;
         $this->targetedAnimal=$targetedAnimal;
