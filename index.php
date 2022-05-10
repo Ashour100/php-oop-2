@@ -2,7 +2,9 @@
 include_once __DIR__ . '/data/Products.php';
 include_once __DIR__ . '/data/Food.php';
 
-$dogprod=new Food("12/10/2020","12/10/2020","dog","somthing","",'dogprod1','15$','200g','me'); //erorrrrr
+$dogprod=new Food("12/10/2020","12/10/2020","dog","somthing","",'dogprod1','15$','200g','me');
+
+var_dump($dogprod);
 
 
 
